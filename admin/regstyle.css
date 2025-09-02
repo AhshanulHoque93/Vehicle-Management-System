@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    }
+    body{
+    background-image:url(2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    }
+    
+    .loginbox{
+    width:420px;
+    height:420px;
+    background-image: linear-gradient(rgba(158, 239, 250, 0.9),rgba(245, 226, 140, 0.9));
+    color:rgb(7, 6, 6);
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    padding:40px 10px;
+    }
+    
+    #images{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+    }
+    
+    h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align:center;
+    font-size:22px;
+    }
+    .loginbox p{
+    margin:0;
+    padding:0;
+    margin-bottom:5px;
+    font-weight:bold;
+    }
+    
+    .loginbox input{
+    width:100%;
+    margin-bottom:20px;
+    }
+    .loginbox #im
+    {
+    border:.5px solid white;
+    background:transparent;
+    width:100%;
+    color:rgb(7, 6, 6);
+    font-size:16px;
+    }
+    .loginbox #un
+    {
+    border:.5px solid white;
+    background:transparent;
+    height:40px;
+    color:rgb(7, 6, 6);
+    font-size:16px;
+    }
+    .loginbox #pp
+    {
+    border:.5px solid white;
+    background:transparent;
+    height:40px;
+    color:rgb(7, 6, 6);
+    font-size:16px;
+    }
+    .loginbox #sub
+    {
+    border:none;
+    outline:none;
+    height:40px;
+    background:#fb2525;
+    color:rgb(7, 6, 6);
+    font-size:18px;
+    border-radius:20px;
+    width:100%;
+    }
+    .loginbox #sub:hover
+    {
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+    }
+    .loginbox a{
+    margin-top: 10px;
+    text-decoration:none;
+    font-size:12px;
+    color:darkgrey;
+    padding:10px;
+    }
+    .loginbox a:hover
+    {
+    color:#ffc107;
+    }
