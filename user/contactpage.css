@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(contactpage.jpg);
+    background-size: cover;
+}
+.contact .Content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .Content h2
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(231, 225, 225);
+}
+.contact .Content p
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(226, 43, 52);
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(211, 195, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+
+}
+.container .contactinfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(238, 76, 76);
+    flex-direction: column;
+    font-weight: 500;
+}
+.container .contactinfo .box .text h3
+{ 
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(123, 255, 0);
+}
+input[type=text]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 25px;
+    font-family: serif;
+    width: 500;
+    color: aqua;
+}
+input[type=text]:focus
+{
+    background-color: antiquewhite;
+    border: 3px solid #555;
+}
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 6px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  @media(max-width: 800px)
+  {
+      .contact
+      {
+          padding: 50px;
+      }
+      .container
+      {
+          flex-direction: column;
+      }
+      .container .contactinfo
+      {
+          margin-bottom: 40px;
+      }
+      
+  
+  }
